@@ -1,0 +1,214 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffbea; /* soft honey background */
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f4c542; /* honey yellow */
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 25px;
+  text-align: left;
+  color: #e5e4e2
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #e5e4e2;
+  font-size: 30px
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a66b00; / honey brown hover /
+}
+/* Center headings for Home page */
+main h2, main h3 {
+  text-align: center;
+  color: #a66b00;   /* warm honey-brown for consistency */
+  margin-bottom: 20px;
+}
+
+/* Kata-kata Aluan box */
+.aluan-box {
+  background-color: #fff3cd;
+  border: 2px solid #f4c542;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;   /* centers the box itself */
+  max-width: 700px;
+  text-align: center;  /* centers the text inside */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Hubungi Kami box */
+.hubungi-box {
+  background-color: #eafbea;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;   /* centers the box itself */
+  max-width: 700px;
+  text-align: center;  /* centers the text inside */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Tentang page box */
+.profile-box {
+  background-color: #fffbea;
+  border: 2px solid #f4c542;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-box h2 {
+  text-align: center;
+  color: #a66b00;
+  margin-bottom: 20px;
+}
+
+/* Flex layout for image + biodata */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* centers content horizontally */
+  gap: 30px;
+}
+
+.profile-image img {
+  width: 250px;
+  border-radius: 8px;
+  border: 3px solid #f4c542;
+}
+
+.profile-info {
+  max-width: 600px;
+}
+
+.profile-info p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+}
+.info-box {
+  background-color: #fff3cd;
+  border: 2px solid #f4c542;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Produk page box */
+.product-box {
+  background-color: #fffbea;
+  border: 2px solid #f4c542;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-box h2 {
+  color: #a66b00;
+  margin-bottom: 20px;
+}
+
+.product-item {
+  margin-bottom: 20px;
+  text-align: left; /* keeps list aligned neatly */
+}
+
+.product-item h3 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.product-item ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.product-item li {
+  margin: 6px 0;
+  color: #444;
+}
+
+
+/* Gallery page */
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.galeri img {
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #f4c542;
+  transition: transform 0.3s;
+}
+
+.galeri img:hover {
+  transform: scale(1.05); /* zoom effect on hover */
+}
+.gallery-box {
+  background-color: #fffbea;
+  border: 2px solid #f4c542;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.gallery-box h2 {
+  text-align: center;
+  color: #a66b00;
+  margin-bottom: 20px;
+}
+
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers the images */
+  gap: 15px;
+}
+
+.galeri img {
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #f4c542;
+  transition: transform 0.3s;
+}
+
+.galeri img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #f4c542;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
